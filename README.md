@@ -14,11 +14,6 @@ Initialize the GIS system by parsing OpenStreetMap data into a searchable format
 **Core Focus:**
 - Parsed `.bin` map data to extract streets, intersections, and POIs.
 - Designed an interactive UI using the EZGL graphics library.
-- Enabled panning, zooming, and hover interaction for a smooth user experience.
-
-**Suggested Media:**
-- 📷 *Map Rendering Demo* – Screenshot of the initial UI
-- 🎥 *EZGL Map Interface Walkthrough* – [Video Placeholder]
 
 ---
 
@@ -65,8 +60,6 @@ Solve a multi-pickup, multi-dropoff delivery route problem under depot and time 
 - Used **Multi-Destination Dijkstra** to precompute travel times.
 - Applied **Multi-Start + 2-Opt Simulated Annealing (SA)** for optimization.
 - Enabled **parallelism** using `std::thread` for concurrent heuristic execution under 50s time constraints.
-
-> ⚠️ *SA Challenge:* Traditional temperature-based SA didn’t improve results meaningfully. We refined our heuristics instead for better performance.
 
 **Suggested Media:**
 - 📷 *Before vs After Route Optimization* – Diagram
