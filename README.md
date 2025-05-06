@@ -13,6 +13,7 @@ Initialize the GIS system by parsing OpenStreetMap data into a searchable format
 
 **Core Focus:**
 - Parsed `.bin` map data to extract streets, intersections, and POIs.
+
 ---
 
 ## 🧭 Milestone 2: Autocomplete & Search
