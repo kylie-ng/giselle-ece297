@@ -13,8 +13,6 @@ Initialize the GIS system by parsing OpenStreetMap data into a searchable format
 
 **Core Focus:**
 - Parsed `.bin` map data to extract streets, intersections, and POIs.
-- Designed an interactive UI using the EZGL graphics library.
-
 ---
 
 ## 🧭 Milestone 2: Autocomplete & Search
@@ -25,6 +23,7 @@ Enable users to search for partial street names and retrieve valid results in re
 **Core Focus:**
 - Built a custom **Trie** data structure for prefix-based search.
 - Integrated full-street and partial match functionality.
+- Designed an interactive UI using the EZGL graphics library.
 - Displayed real-time matching results on the GUI.
 
 **Suggested Media:**
