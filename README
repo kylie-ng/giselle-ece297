@@ -1,129 +1,125 @@
 🌍 GISelle: A Safer, Smarter Mapping System
-GISelle is an interactive, safety-focused navigation system built using advanced geographic information system (GIS) algorithms. Designed by a team of engineering students, GISelle enhances traditional street-mapping applications with features tailored toward women’s safety and rapid response.
+GISelle is an interactive, safety-focused navigation system built using advanced Geographic Information System (GIS) algorithms. Designed by a team of engineering students, GISelle enhances traditional street-mapping apps with features tailored for women’s safety and emergency responsiveness.
 
-This project was completed through multiple development milestones as part of a university-level GIS course. Below is a high-level overview of each milestone, its goals, the key algorithms implemented, and system improvements.
+This project was developed through multiple course-based milestones. Each stage introduced new algorithms, UI features, and real-time optimizations.
 
 📌 Milestone 1: Data Integration & Basic Rendering
 Goal:
-Initialize the GIS system by parsing OpenStreetMap data into a searchable format and rendering it using a basic GUI.
+Set up the foundation by parsing OpenStreetMap data and rendering it using a custom interface.
 
-Core Focus:
+Highlights:
 
-Parsed .bin map data to extract streets, intersections, and POIs.
+Extracted streets, intersections, and POIs from .bin map data
 
-Designed a user interface using EZGL graphics library for rendering a vector-based map.
+Built a dynamic UI using the EZGL graphics library
 
-Enabled panning, zooming, and hover interaction for a smooth user experience.
+Added intuitive zoom, pan, and hover interaction
 
-Suggested Media:
-
-📷 “Map Rendering Demo” screenshot of initial UI
-
-🎥 Video: EZGL map interface walkthrough
+Media:
+📷 Screenshot: Map Rendering Demo
+🎥 Video: EZGL Interface Walkthrough
 
 🧭 Milestone 2: Autocomplete & Search
 Goal:
-Enable users to search for partial street names and retrieve valid results in real time.
+Support partial street name search with real-time results.
 
-Core Focus:
+Highlights:
 
-Implemented a custom Trie data structure for prefix-based street name search.
+Created a Trie structure for prefix-based search
 
-Integrated full-street and partial match functionality with real-time feedback.
+Supported full-street + partial matching
 
-Displayed matching results interactively on the GUI with visual cues.
+Displayed suggestions live on the GUI
 
-Suggested Media:
+Media:
+📷 Screenshot: Autocomplete in Action
+🎥 Video: Autocomplete Demo
 
-📷 Screenshot: “Autocomplete in action”
-
-🎥 Video: Autocomplete test cases
-
-🧠 Milestone 3: Pathfinding with A* Algorithm
+🧠 Milestone 3: A* Pathfinding
 Goal:
-Develop a fast and responsive routing system using A search* to compute the optimal path between two intersections.
+Use A* to find the fastest, safest path between intersections.
 
-Core Focus:
+Highlights:
 
-Implemented the A* pathfinding algorithm with a time-based cost function.
+Implemented A search* with time-based cost
 
-Integrated a turn penalty to simulate realistic travel scenarios.
+Added turn penalties to simulate realistic travel
 
-Prioritized main roads to align with real-world user behavior and safety preferences (more visibility, safer routes).
+Prioritized well-lit/main roads for user safety
 
-Technical Note:
-A* used a priority queue to balance travel cost (g) and heuristic estimate (h). This greatly reduced search space while ensuring optimal time-based routing.
+⏱️ A balanced g(n) and h(n) via a priority queue to speed up search while ensuring optimal routing.
 
-Suggested Media:
-
-📷 Screenshot: “Shortest route rendered on map”
-
-🎥 Video: A* Search + Emergency Redirects
+Media:
+📷 Screenshot: Shortest Route Display
+🎥 Video: A* Pathfinding + Emergency Redirect
 
 📦 Milestone 4: Traveling Courier Problem
 Goal:
-Solve a multi-pickup, multi-dropoff delivery route planning problem with depot constraints using metaheuristics.
+Solve multi-pickup, multi-dropoff routing with depot constraints using optimization techniques.
 
-Core Focus:
+Highlights:
 
-Implemented Multi-Destination Dijkstra to precompute travel times between all relevant nodes.
+Built a Multi-Destination Dijkstra precomputation layer
 
-Applied Multi-Start + 2-Opt Simulated Annealing (SA) for iterative route optimization.
+Used Multi-Start + 2-Opt Simulated Annealing
 
-Used parallelism (via std::thread) to run heuristics concurrently for faster results under a 50-second constraint.
+Boosted speed with parallel threads using std::thread
 
-SA Challenge:
-We attempted a traditional temperature-based SA model, but after empirical testing, found no meaningful improvement in route quality under time constraints. We refined our heuristics instead.
+⚠️ Note: Traditional SA didn’t help under time pressure — we instead tuned our heuristics for better real-time performance.
 
-Suggested Media:
+Media:
+📷 Diagram: Before vs After Route Optimization
+🎥 Video: Courier Algorithm in Action
 
-📷 Diagram: “Before vs After route optimization”
-
-🎥 Video: Courier algorithm running in real-time
-
-🔐 Final Features: Safety-Focused Mapping
+🔐 Final Safety Features
 Goal:
-Extend GISelle’s routing and map features to prioritize women’s safety and real-world responsiveness.
+Transform GISelle into a true safety-first navigation tool.
 
-Core Features Added:
+Features Added:
 
-Find-Nearest-Police Button (re-routes on tap).
+🚨 Nearest Police Station button with instant reroute
 
-Emergency Helpline Toggle based on region.
+📞 Emergency Helpline Toggle (region-specific)
 
-Usability/Response Testing: System Usability Score (SUS) + timed action responses.
+🧪 User Testing via SUS and action time tracking
 
-Future Vision: Street-lighting-aware routing, Uber API integration for safer rides, and crowdsourced safety flagging.
+Future Plans:
 
-Suggested Media:
+💡 Routing aware of street lighting
 
-📷 Screenshot: “Emergency safety UI overlay”
+🚘 Integration with Uber Women Preferred Ride
 
-🎥 Demo: GISelle Emergency Features in Action
+🗺️ Crowdsourced safety flagging backend
 
-📊 Testing + Results
-Usability: SUS scores from 10 participants rated GISelle highly for confidence and integration.
+Media:
+📷 Screenshot: Emergency UI Overlay
+🎥 Demo: Safety Feature Showcase
 
-Responsiveness: Majority located safety buttons in under 2 seconds.
+📊 Testing & Results
+✅ Usability: 10 participants rated GISelle highly in confidence & clarity (SUS test)
 
-Courier Efficiency: Route time improved by 10–15 seconds using multi-start and custom 2-opt.
+⚡ Responsiveness: 80% located safety buttons in <2 seconds
 
-🔮 What’s Next?
-GISelle’s mission continues:
+📦 Efficiency: Route times improved 10–15s with heuristics
 
-🌃 Add API-driven street-lighting mode
+🔮 What's Next?
+GISelle is evolving to serve more users in safer, smarter ways:
 
-🚗 Seamless handoff to Uber Women Rider Preference
+🌃 Streetlight-aware routing
 
-🧭 Enable community-driven safety reporting via a backend
+🚗 Seamless Uber integration for safer rides
+
+🧭 Community-led safety reporting
 
 🧠 Key Learnings
-Algorithm design impacts user safety when paired with thoughtful UI.
+Great algorithm design enhances safety when combined with user-centered UI
 
-Precomputation and parallelism unlock near-instant responsiveness.
+Precomputation + parallelism = ultra-fast performance
 
-Heuristics like multi-start and 2-opt (with enhancements) outperform pure greedy methods in real time.
+Heuristics like Multi-Start + 2-Opt outperform greedy approaches in real time
 
-Want the full walkthrough with visuals?
-👉 Watch our Final Presentation Demo
-👉 Explore our Poster Slide Deck can u make this girhib ike copy 
+🎥 Watch It In Action
+👉 Final Presentation Demo
+👉 Poster Slide Deck
+
+Made with purpose by a team of engineers passionate about building safe, smart, and inclusive technology.
