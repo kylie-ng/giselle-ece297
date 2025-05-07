@@ -27,10 +27,9 @@ Enable users to search for partial street names and retrieve valid results in re
 - Designed an interactive UI using the EZGL graphics library.
 - Displayed real-time matching results on the GUI.
 
-**Suggested Media:**
+**GISelle day VS NightMode and NightShift:**
+![icons_GISelle](https://github.com/user-attachments/assets/1fd3456f-6e00-4236-95f3-7d07f70f8177)
 ![Screenshot (644)](https://github.com/user-attachments/assets/61dd6bf4-6028-4be0-8d2e-15b2680e4928)
-
-- 🎥 *Autocomplete Demo* – [Video Placeholder]
 
 ---
 
