@@ -123,7 +123,7 @@ GISelle’s mission continues:
 
 ---
 
-## 🎥 My Amazing Team!
+## 🎥 ** My Amazing Team! **
 ![Screenshot (650)](https://github.com/user-attachments/assets/1a87ed0e-7e69-4092-959c-0e9b3d8d6b8d)
 
 
