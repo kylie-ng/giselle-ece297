@@ -53,9 +53,12 @@ Develop a fast and responsive routing system using **A\*** search to compute the
 
 > 📌 *Tech Note:* A* used a priority queue balancing `g(n)` (travel cost) and `h(n)` (heuristic estimate), significantly reducing search space while ensuring optimal routing.
 
-**Suggested Media:**
-- 📷 *Shortest Route Rendered on Map* – Screenshot
-- 🎥 *A* Search + Emergency Redirects* – [Video Placeholder]
+**Shortest Path Between 2 Intersections:**
+![Screenshot (648)](https://github.com/user-attachments/assets/b1b35238-5ac3-4bed-8b18-c45324f1cd41)
+
+**Shortest Path Between 2 Intersections AND AFTER Clicking find Nearest Police Station:**
+![Screenshot (649)](https://github.com/user-attachments/assets/ca1bc35e-8639-424c-a373-64ed178a19c5)
+
 
 ---
 
@@ -69,10 +72,6 @@ Solve a multi-pickup, multi-dropoff delivery route problem under depot and time 
 - Applied **Multi-Start + 2-Opt Simulated Annealing (SA)** for optimization.
 - Enabled **parallelism** using `std::thread` for concurrent heuristic execution under 50s time constraints.
 
-**Suggested Media:**
-- 📷 *Before vs After Route Optimization* – Diagram
-- 🎥 *Courier Algorithm Demo* – [Video Placeholder]
-
 ---
 
 ## 🔐 Final Features: Safety-Focused Mapping
@@ -82,17 +81,15 @@ Extend GISelle’s features to prioritize real-world responsiveness and women’
 
 **Key Features:**
 - 🛡️ **Find-Nearest-Police** Button for emergency rerouting.
+[📽 **View Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
 - 📞 **Helpline Toggle** by region.
+[📽 **View Demo**](https://drive.google.com/file/d/1mFsIyXOgQFTtLae3_aC17UQoMqpNy3fi/view?usp=sharing)
 - ✅ **Usability Testing** using SUS + timed safety actions.
 
 **Future Additions:**
 - 💡 Street-lighting-aware routing
 - 🚘 Uber API integration (Women Rider Preference)
 - 📍 Crowdsourced safety flagging with backend support
-
-**Suggested Media:**
-- 📷 *Emergency Safety UI Overlay* – Screenshot
-- 🎥 *Emergency Feature Demo* – [Video Placeholder]
 
 ---
 
@@ -126,10 +123,10 @@ GISelle’s mission continues:
 
 ---
 
-## 🎥 Want the Full Demo?
+## 🎥 My Amazing Team!
+![Screenshot (650)](https://github.com/user-attachments/assets/1a87ed0e-7e69-4092-959c-0e9b3d8d6b8d)
 
-- 👉 [Watch Our Final Presentation Demo](#)
-- 👉 [Explore Our Poster Slide Deck](#)
+
 
 ---
 
