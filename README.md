@@ -9,9 +9,10 @@ It combines advanced Geographic Information System (**GIS**) algorithms with rea
 
 ## 🎥 Final Demo + UI Showcase
 > 📽 Click the image below to watch the full demo on Google Drive 
-[![Watch the Full Demo](https://github.com/user-attachments/assets/59628157-f7ff-4ff8-a41a-98264aa2bbea)](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
+[![Watch the Full Demo](https://github.com/user-attachments/assets/66d13a24-b3ba-48b1-9b1a-cfc1359b42ce)](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
 
  
+
 
 ---
 
