@@ -5,10 +5,13 @@ It combines advanced Geographic Information System (**GIS**) algorithms with rea
 
 > 💡 **Final Grade:** Awarded an **A** for exceptional algorithmic performance, innovation, and usability testing across all milestones.
 
----
 
-📽 **Watch the Full Demo + UI Showcase**  
-🔗 [Click to view on Google Drive](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
+
+## 🎥 Final Demo + UI Showcase
+> 📽 Click the image below to watch the full demo on Google Drive 
+[![Watch the Full Demo](https://github.com/user-attachments/assets/59628157-f7ff-4ff8-a41a-98264aa2bbea)](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
+
+ 
 
 ---
 
