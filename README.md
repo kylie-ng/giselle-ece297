@@ -7,6 +7,11 @@ It combines advanced Geographic Information System (**GIS**) algorithms with rea
 
 ---
 
+📽 **Watch the Full Demo + UI Showcase**  
+🔗 [Click to view on Google Drive](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
+
+---
+
 ## Why GISelle?
 
 Traditional mapping apps often optimize for speed — but not safety. GISelle was built to change that.  
