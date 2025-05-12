@@ -1,6 +1,6 @@
 # 🌍 GISelle: A Safer, Smarter Mapping System
 
-**GISelle** is an interactive, safety-focused navigation platform developed as part of the University of Toronto's **ECE297: Communication & Design of Engineering Algorithms** course.  
+**GISelle** is an interactive, safety-focused navigation platform developed as part of the University of Toronto's **ECE297: Software Design & Communication** course.  
 It combines advanced Geographic Information System (**GIS**) algorithms with real-time responsiveness and a mission-driven UI — designed to make urban travel smarter and safer, especially for **women and vulnerable communities**.
 
 > 💡 **Final Grade:** Awarded an **A** for exceptional algorithmic performance, innovation, and usability testing across all milestones.
