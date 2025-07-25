@@ -50,7 +50,7 @@ Empower users to instantly search for street names and identify points of intere
 
 ### UI Before & After: Day, Night, and Shift Modes
 
-**🕒 Before GISelle Enhancements (Basic UI):**  
+** Before GISelle Enhancements (Basic UI):**  
 Low contrast, minimal feedback, and no safety-specific filters.
 
 | Old UI Preview |
