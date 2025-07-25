@@ -7,8 +7,8 @@ It combines advanced Geographic Information System (**GIS**) algorithms with rea
 
 
 
-## 🎥 Final Demo + UI Showcase
-> 📽 Click the image below to watch the full demo on Google Drive 
+## Final Demo + UI Showcase
+> Click the image below to watch the full demo on Google Drive 
 [![Watch the Full Demo](https://github.com/user-attachments/assets/66d13a24-b3ba-48b1-9b1a-cfc1359b42ce)](https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing)
 
  
@@ -58,7 +58,7 @@ Low contrast, minimal feedback, and no safety-specific filters.
 | ![Old UI](https://github.com/user-attachments/assets/7e984fdc-c729-43e6-a729-adcfefb2d603) |
 
 ---
-#### 🧊 No Shift Applied – Normal Map After Rendering  
+#### No Shift Applied – Normal Map After Rendering  
 The clean, default GISelle interface after core Milestone 2 features were implemented — including search, drawing functions, and initial icon placements.  
 This version includes streets, intersections, and POIs rendered via EZGL, but without night or shift-specific styling.
 
@@ -93,7 +93,7 @@ In safety-critical environments, clarity and speed matter. Our system allows use
 - Shift-aware coloring for **night-shift workers**.
 - Designed for visual accessibility with minimal cognitive load.
 
-📽 [**Watch Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
+ [**Watch Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
 
 ---
 
