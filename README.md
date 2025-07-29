@@ -177,7 +177,12 @@ Extend GISelle’s core functionality to directly support **real-time responsive
 
   - **Helpline Toggle by Region**  
   Dynamically displays regional helplines, offering support hotlines tailored to the user’s location.  
-  [**Watch Demo**](https://drive.google.com/file/d/1mFsIyXOgQFTtLae3_aC17UQoMqpNy3fi/view?usp=sharing)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing">
+    <img src="https://github.com/user-attachments/assets/2f5e0292-2f11-44ef-933b-97705226e1b6" alt="Watch the Full Demo" width="900"/>
+  </a>
+</p>
+
 
 - **User Testing & Feedback**  
   Conducted **System Usability Scale (SUS)** surveys and timed user trials to validate speed, clarity, and reliability of safety features.
