@@ -23,7 +23,8 @@ Most mapping apps prioritize shortest distance or travel time, often ignoring cr
 
 ---
 
-Development Overview, GISelle was developed across four major milestones, each introducing new algorithms, optimization techniques, and usability improvements. Below is a breakdown of these phases, with live demos and visual snapshots.
+## Development Overview
+- GISelle was developed across four major milestones, each introducing new algorithms, optimization techniques, and usability improvements. Below is a breakdown of these phases, with live demos and visual snapshots.
 ---
 
 ## Milestone 1: Data Integration & Basic Rendering
