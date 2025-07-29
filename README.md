@@ -168,11 +168,14 @@ Extend GISelle’s core functionality to directly support **real-time responsive
 
 - **Find-Nearest-Police Button**  
   Allows users to instantly reroute to the closest police station in an emergency.  
-  📽 [**Watch Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
+<p align="center">
+  <a href="https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing">
+    <img src="https://github.com/user-attachments/assets/f7d23e41-63be-420e-bd48-4e1a8c5584d0" alt="Watch the Full Demo" width="900"/>
+  </a>
+</p>
+ 
 
-  
-
-- **Helpline Toggle by Region**  
+  - **Helpline Toggle by Region**  
   Dynamically displays regional helplines, offering support hotlines tailored to the user’s location.  
   [**Watch Demo**](https://drive.google.com/file/d/1mFsIyXOgQFTtLae3_aC17UQoMqpNy3fi/view?usp=sharing)
 
