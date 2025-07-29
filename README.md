@@ -219,23 +219,7 @@ Extend GISelle’s core functionality to directly support **real-time responsive
 
 ---
 
-
-## Key Learnings
-
-- Algorithm design *directly impacts user safety* when paired with thoughtful UI.
-- **Precomputation + Parallelism** = blazing fast responsiveness.
-- Metaheuristics like **multi-start and 2-opt** outperform greedy algorithms under real-time constraints.
-
----
-
 ## Meet the Team Behind GISelle
 
-Every map, route, and safety feature in GISelle was brought to life by a passionate, all-engineering team dedicated to innovation and impact.  
-From algorithms to UI design, we collaborated across disciplines to build a system that reflects both technical depth and real-world empathy.
-
+this was my amazing team :D
 ![Team Photo](https://github.com/user-attachments/assets/1a87ed0e-7e69-4092-959c-0e9b3d8d6b8d)
-
-> _Built with purpose. Designed for safety. Powered by teamwork._
-
-
-> _Made with care by engineers passionate about safety and smart cities._
