@@ -1,4 +1,4 @@
-# GISelle: A Safer, Smarter Mapping System
+# GISelle, Safety-Aware Navigation and Pathfinding Platform for Women (C++, EZGL, Multi-Threaded Algorithms)
 
 GISelle (from elle, French for “her”) is an interactive, safety-focused navigation platform built as part of the University of Toronto's ECE297: Software Design & Communication course.
 It integrates advanced Geographic Information System (GIS) algorithms with real-time performance optimizations and a user-focused design, aiming to make urban travel not just faster, but safer and more intuitive — especially for women and vulnerable communities. Awarded an **A** for exceptional algorithmic performance, innovation, and usability testing across all milestones.
