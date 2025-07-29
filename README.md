@@ -1,11 +1,9 @@
 # GISelle: A Safer, Smarter Mapping System
 
-**GISelle** is an interactive, safety-focused navigation platform developed as part of the University of Toronto's **ECE297: Software Design & Communication** course.  
-It combines advanced Geographic Information System (**GIS**) algorithms with real-time responsiveness and a mission-driven UI — designed to make urban travel smarter and safer, especially for **women and vulnerable communities**.
+GISelle (from elle, French for “her”) is an interactive, safety-focused navigation platform built as part of the University of Toronto's ECE297: Software Design & Communication course.
+It integrates advanced Geographic Information System (GIS) algorithms with real-time performance optimizations and a user-focused design, aiming to make urban travel not just faster, but safer and more intuitive — especially for women and vulnerable communities. Awarded an **A** for exceptional algorithmic performance, innovation, and usability testing across all milestones.
 
-> **Final Grade:** Awarded an **A** for exceptional algorithmic performance, innovation, and usability testing across all milestones.
-
-## Final Demo + UI Showcase
+## Final Demo + UI Showcase (wait for GIF to load...)
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1ZqqvSZlfG-oxGxM2vKJ8t9Unu_PgmEsV/view?usp=sharing">
@@ -18,82 +16,59 @@ It combines advanced Geographic Information System (**GIS**) algorithms with rea
 
 ## Why GISelle?
 
-Traditional mapping apps often optimize for speed — but not safety. GISelle was built to change that.  
-Our system layers intelligent pathfinding with real-world constraints like lighting, emergency rerouting, and shift-specific interfaces to reflect how people *actually* move through cities.
+Most mapping apps prioritize shortest distance or travel time, often ignoring critical safety constraints. GISelle redefines navigation by:
+- Incorporating safety-aware heuristics such as lighting conditions and main-road bias.
+- Supporting emergency rerouting (e.g., nearest police station) in real-time.
+- Offering shift-based UI modes (day/night) tailored for high-risk urban scenarios.
 
 ---
 
-This project evolved through several major milestones, each adding new layers of intelligence, usability, and empathy to the platform.  
-What follows is a breakdown of each milestone’s goals, algorithms, and feature upgrades — alongside visuals and live demos.
-
+Development Overview, GISelle was developed across four major milestones, each introducing new algorithms, optimization techniques, and usability improvements. Below is a breakdown of these phases, with live demos and visual snapshots.
 ---
-
 
 ## Milestone 1: Data Integration & Basic Rendering
-
-**Goal:**  
-Initialize the GIS system by parsing OpenStreetMap data into a searchable format and rendering it via a basic GUI.
-
-**Core Focus:**
-- Parsed `.bin` map data to extract streets, intersections, and POIs.
-
+Goal:
+Establish a foundational GIS engine by processing .bin map data into a structured format for fast spatial lookups and rendering the map via a custom EZGL GUI framework.
+Core Focus:
+- Parsing map data for streets, intersections, and points of interest (POIs).
+- Building efficient adjacency structures for graph-based navigation.
 ---
-
-
 ## Milestone 2: Intelligent Search & Icon Filtering
 
-**Goal:**  
-Empower users to instantly search for street names and identify points of interest — even with limited or partial information — while introducing safety-enhancing visuals.
-
+Goal:
+Deliver real-time street search and context-aware visual enhancements, improving both speed and readability.
 ---
-
-
 ### UI Before & After: Day, Night, and Shift Modes
-
 ** Before GISelle Enhancements (Basic UI):**  
 Low contrast, minimal feedback, and no safety-specific filters.
-
 | Old UI Preview |
 |----------------|
-| ![Old UI](https://github.com/user-attachments/assets/7e984fdc-c729-43e6-a729-adcfefb2d603) |
-
+| ![Old UI](https://github.com/user-attachments/assets/af1c83a5-c154-4dca-b105-04f8dac1bcf7) |
 ---
-#### No Shift Applied – Normal Map After Rendering  
+#### No Shift Applied, Normal Map After Rendering  
 The clean, default GISelle interface after core Milestone 2 features were implemented — including search, drawing functions, and initial icon placements.  
 This version includes streets, intersections, and POIs rendered via EZGL, but without night or shift-specific styling.
-
 ![Raw Map](https://github.com/user-attachments/assets/b0281ca4-620a-4d75-a548-657350177283)
-
-
 ---
-
 #### After (Night Shift Mode)  
 Highlighting essential services for late-night users like paramedics, students, or women traveling alone.  
 This mode emphasizes police stations, hospitals, and transit hubs with high-contrast icons and a darker color palette for visual comfort and rapid decision-making in low-light conditions.
-
 ![Screenshot (663)](https://github.com/user-attachments/assets/48414b11-9707-4e36-aaac-da56bbc60577)
-
-
 ---
-
 #### After (Dark Mode)  
 Designed for users navigating in the evening or indoors.  
 Dark Mode reduces glare while preserving all default functionalities — including search, icons, and map interaction — in a visually accessible format.
-
 ![Dark Mode UI](https://github.com/user-attachments/assets/0f6687e5-fde6-469c-bf66-03c62842bade)
 
-
 ### Icon Filtering System
-
 **Why it matters:**  
 In safety-critical environments, clarity and speed matter. Our system allows users to locate police stations, hospitals, and transit hubs with easily scannable icons.
-
 **Features:**
 - Icons designed with **distinct night/day modes**.
 - Shift-aware coloring for **night-shift workers**.
 - Designed for visual accessibility with minimal cognitive load.
 
- [**Watch Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
+[**Watch Demo**](https://drive.google.com/file/d/1yCigekm_2TaZjuh5b4TJdqsYTWXpQuca/view?usp=sharing)
 
 ---
 
